@@ -1,0 +1,200 @@
+/*********** 
+GENERAL 
+***********/
+
+body {
+	font-family: "Open Sans", sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto 30px auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/*********** 
+HEADING 
+***********/
+
+header {
+	float: left;
+	padding: 5px 0 0 0;
+	margin: 0 0 30px 0;
+	width: 100%
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	margin: 20px 0;
+	font-size: 2.00em;
+	font-weight: normal;
+	line-height: 1.0em;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	margin: -5px 0 0;
+	font-size: 1.00em;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+
+
+/*********** 
+NAVIGATION
+***********/
+
+nav {
+	text-align: center;
+	padding: 5px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 5px;
+}
+
+nav li {
+	display: inline-block;
+	width: 120px;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+	letter-spacing: 1px;
+}
+
+
+/*********** 
+FOOTER
+***********/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+}
+
+.social-icon {
+	width: 22px;
+	height: 22px;
+	padding: 1px 0;
+	margin: 5px 5px 0 5px;
+}
+
+
+
+/*********** 
+HOME
+***********/
+
+#home {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#home a p {
+	padding: 5%;
+	margin: 0;
+	font-size: 0.75em;
+}
+
+/*********** 
+SERVICES
+***********/
+
+.menu {
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+
+
+li h2 {
+	color: black;
+}
+
+/*********** 
+COLORS
+***********/
+
+/* site body */
+body {
+	background-color: #FFFFFF
+	color: #999999;
+}
+
+/* header */
+header {
+	background: #E58B65;
+	border-color: #D48060;
+}
+
+/* logo text */
+h1, h2 {
+	color: #FFFFFF;
+}
+
+/* nav */
+nav {
+	background-color: #D48066;
+}
+
+/* links */
+a {
+	color: #FFFFFF;
+}
+
+/* nav links */
+nav a, nav a:visited {
+	color: #FFFFFF;
+}
+
+/* selected nav links */
+nav a.selected, nav a:hover {
+	color: #FFFF99;
+	width: 110px;
+}
+
+footer {
+	background: #D48066;
+	border-color: #D48066;
+	color: #FFFFFF;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#copyright {
+	background-color: #E58B65;
+}

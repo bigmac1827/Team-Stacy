@@ -1,0 +1,130 @@
+/* 
+
+This file contains all your CSS style rules. 
+indent = 2 spaces, not tabs 
+
+Reference: http://www.w3schools.com/css/default.asp
+
+*/
+
+/* because every browser has a built in stylesheet we have to reset those properties that we want to manipulate later. We do this by setting those properties to zero for the entire HTML document and any other tag selectors we want to redefine from scratch*/
+
+html h1 {
+  margin: 0;
+}
+
+/* next we set up those properties that we want to apply everywhere that is visible on the page using the body selector. Notice the "font-family" */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  background-color: #0f0f0f
+}
+
+/* The container sits in the middle of the page and is a fixed width Reference: http://www.w3schools.com/css/css_boxmodel.asp
+*/
+
+.container {
+  float: left;
+  background-color: #aaaaaa;
+  border-radius: 10px;
+  max-width: 70%;
+  padding: 2.5%;
+  margin: 2.5%;
+}
+
+/* The next set of styles pretty much just "open up" the page and create white space */
+
+.header {
+  background-color: #aaa;
+  padding-bottom: 20px;
+  margin: 2.5%;
+  border-radius: 10px;
+}
+ 	
+.page_heading {
+    margin-left: 20px;
+} 
+	
+.contact_information {
+    margin-left: 20px;
+}
+
+/* we want the validation pages to appear on the right side of the page inside the container */
+
+.validation_badge {
+  float: right;
+}
+
+nav {
+  background-color: #dddddd;
+  float: left;
+  width: 15%;
+  border-radius: 10px;
+  margin: 2.5%;
+}
+
+.quote {
+  text-align: center;
+}
+
+.menu {
+  clear: none;
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  max-width: 30%;
+}
+
+.menuItem {
+  display:inline;
+  max-width: 30%;
+}
+
+.menuItemTitle h2{
+  font-size: 1em;
+  max-width: 30%;
+  display: inline;
+}
+
+.menuItemDescription {
+  font-size: .8em;
+  max-width: 30%;
+  display: inline;
+}
+
+.prompt_text {
+  font-size: 24px;
+  padding-left: 10px;
+  color: #000;
+}
+.form_field_table {
+  margin-left: 30px;
+  border: none;
+}
+.form_field_table td {color: #00f;}
+
+form {
+  color: #00f;
+}
+.buttons {
+  float: right;
+}
+
+.float_right {
+  float: right;
+}
+
+
+/* finally, the footer stretches across the whole page width in an open, centered sort of way. */
+footer {
+  font-size: .80em;
+  min-height: 40px;
+  text-align: center;
+  margin: 20px;
+  background-color: #dddddd;
+}
+
+
+
