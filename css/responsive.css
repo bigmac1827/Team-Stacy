@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1200px) {
+
+   h2 {
+      font-size: 0.75em;
+   }
+
+   h3 {
+      font-size: 0.75em;
+   }
+  
+  h4 {
+      font-size: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 894px) {
+
+h2 {
+ margin: 0 0 0 auto;
+}
+
+h3 {
+  margin: auto;
+}
+
+h4 {
+  margin:auto;
+}
+
+@media only screen and (max-width: 600px) {
+   
+   h1 {
+    font-size: 1.7em;
+   }
+  
+ h4 {
+  display:block;
+ }
+  
+  h2, h3, h4 {
+    margin: auto;
+    padding: auto;
+    font-size: 0.75em;
+  
+  }
+
+  nav {
+   margin: auto;
+   float: center;
+   width: 130px;
+   padding: -10px 0 -10px 0;
+   font-size: .89em;
+   clear: both;
+  }
+
+  nav ul {
+    margin: 0px 0px -0px 0;
+  }
+
+  
+  
